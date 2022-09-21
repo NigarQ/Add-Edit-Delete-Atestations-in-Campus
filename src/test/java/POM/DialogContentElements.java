@@ -16,9 +16,6 @@ public class DialogContentElements extends BasePOM{
     @FindBy(css = "input[type='text']")
     private WebElement nameSearchInput;
 
-    String name;
-    String name1;
-
     @FindBy(xpath = "//span[text()='Search']")
     private WebElement searchButton;
 

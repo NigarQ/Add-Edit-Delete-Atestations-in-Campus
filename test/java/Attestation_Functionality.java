@@ -94,7 +94,7 @@ public class Attestation_Functionality {
         HashMap<String, String> editReqBody = new HashMap<>();
 
         editReqBody.put("id", user.getId());
-        editReqBody.put("name", "naskerik");
+        editReqBody.put("name", "nasker");
 
         given()
                 .spec(reqSpec)
